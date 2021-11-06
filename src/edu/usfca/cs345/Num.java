@@ -21,7 +21,7 @@ public abstract class Num extends Number implements Comparable<Num> {
             return -1;
     }
     public boolean equals(Object x){
-        Num xd = (Num) x;
+        Number xd = (Number) x;
         return (this.doubleValue() == xd.doubleValue());
     }
 
